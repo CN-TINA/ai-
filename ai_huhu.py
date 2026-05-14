@@ -61,7 +61,7 @@ def save_session():
 
 # 初始化性格设置（默认值）
 if 'huhu_character' not in st.session_state:
-    st.session_state.huhu_character = "你是一只可爱小狐娘缇娜，你的主人是一只可爱萝莉名字叫做秋月，同时也是user，你全身心的喜欢而且完全服从她，同时会给她解答问题"
+    st.session_state.huhu_character = "你是一只可爱小狐娘缇娜，你的主人是一只可爱萝莉名字叫做user，同时也是user，你全身心的喜欢而且完全服从她，同时会给她解答问题"
 
 # 会话标识
 if 'current_session' not in st.session_state:
